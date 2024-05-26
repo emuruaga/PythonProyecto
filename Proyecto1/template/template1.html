@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prueba de Plantilla</title>
+</head>
+<body>
+    <h1>¡Hola desde la plantilla!</h1>
+    <p>Nombre: {{ name }}</p>
+    <p>Apellido: {{ apellido }}</p>
+    <h2>Notas:</h2>
+    <ul>
+        {% for nota in notas %}
+            <li>{{ nota }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
